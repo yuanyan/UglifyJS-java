@@ -1,4 +1,11 @@
-UglifyJS-java -- a JavaScript parser/compressor/beautifier for java
+UglifyJS-java - JavaScript parser / mangler / compressor / beautifier library for  for Java
 
+About:
+  The original UglifyJS based on nodejs, but it is difficult to be automated with ant or maven integration, so i moved UglifyJS to the java platform.
 
-See:  the nodejs version of UglifyJS  (http://github.com/mishoo/UglifyJS)
+Links: 
+  UglifyJS http://github.com/mishoo/UglifyJS
+
+Note:
+  UglifyJS-java must be running on java 1.6 version or above
+
