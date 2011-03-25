@@ -1,5 +1,4 @@
-#+TITLE: UglifyJS-java -- a JavaScript parser/compressor/beautifier for java
-#+KEYWORDS: javascript, js, parser, compiler, compressor, mangle, minify, minifier
-#+DESCRIPTION: a JavaScript parser/compressor/beautifier in JavaScript for java
+UglifyJS-java -- a JavaScript parser/compressor/beautifier for java
 
-( See [[http://github.com/mishoo/UglifyJS][UglifyJS]] the nodejs version of UglifyJS. )
+
+See:  the nodejs version of UglifyJS  (http://github.com/mishoo/UglifyJS)
