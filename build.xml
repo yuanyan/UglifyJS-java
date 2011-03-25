@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<project basedir="." default="uglify">
+
+	<!-- setting -->
+	<property name="version" value="1.0"/>
+
+	<property name="build.dir" value="${basedir}/build"/>
+	<property name="src.dir" value="${basedir}/src"/>
+
+	<property name="uglifyjs.dir" value="${basedir}/bin"/>
+
+	<taskdef name="uglify" classname="uglify.ant.UglifyTask"
+     classpath="${uglifyjs.dir}/uglifyjs.jar"/>
+
+	<!-- clean -->
+	<target name="clean" description="delete files">
+		<delete dir="${build.dir}"/>
+
+		<echo message="delete files finished"/>
+	</target>
+
+	<!-- uglify -->
+	<target name="uglify" depends="clean"
+     description="uglify sources.">
+
+		<mkdir dir="${build.dir}"/>
+
+		<uglify verbose="true" > <!-- output="${build.dir}/min.js" -->
+
+			<sources dir="${src.dir}">
+				<file name="test.js"/>
+			</sources>
+
+		</uglify>
+
+		<echo message="uglified over."/>
+
+	</target>
+
+
+
+</project>
