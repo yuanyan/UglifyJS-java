@@ -11,7 +11,7 @@ Usage：
 Supported options:
 
   -b or --beautify — output indented code; when passed, additional options control the beautifier:
-     -i N or --indent N — indentation level (number of spaces)
+    -i N or --indent N — indentation level (number of spaces)
     -q or --quote-keys — quote keys in literal objects (by default, only keys that cannot be identifier names will be quotes).
 
   --ascii — pass this argument to encode non-ASCII characters as \uXXXX sequences. By default UglifyJS won’t bother to do it and will output Unicode   characters instead. (the output is always encoded in UTF8, but if you pass this option you’ll only get ASCII).
