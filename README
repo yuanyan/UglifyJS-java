@@ -1,5 +1,7 @@
 UglifyJS-java - JavaScript parser / mangler / compressor / beautifier library for  for Java
 
+yuanyan.cao@gmail.com
+
 About:
   The original UglifyJS based on nodejs, but it is difficult to be automated with ant or maven integration, so i moved UglifyJS to the java platform.
 
