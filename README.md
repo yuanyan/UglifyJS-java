@@ -12,7 +12,6 @@ yuanyan.cao@gmail.com
 
 ####Supported options:
 
-
 *  -b or --beautify ¡ª output indented code; when passed, additional options control the beautifier:
     * -i N or --indent N ¡ª indentation level (number of spaces)
     * -q or --quote-keys ¡ª quote keys in literal objects (by default, only keys that cannot be identifier names will be quotes).
