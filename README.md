@@ -3,7 +3,7 @@
 yuanyan.cao@gmail.com
 
 ###About:
-  The original UglifyJS based on nodejs, but it is difficult to be automated with ant or maven integration, so i moved UglifyJS to the java platform.
+  The original UglifyJS based on **nodejs**, but  it is hard to do automated integration with ant or maven, so i moved  UglifyJS from node.js to the java platform.
 
 ###Usage：
     java -jar uglifyjs-java.jar [ options... ] [ filename ]
